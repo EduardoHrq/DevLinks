@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: rgb(31 41 55);
+  --txt: rgb(255 255 255);
+  --card: rgb(55 65 81);
+}
+
+.light {
+  --bg: rgb(243 244 246);
+  --txt: rgb(24 24 27);
+  --card: rgb(209 213 219);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.card {
+  background-color: var(--card);
+}
+
+p,
+a {
+  transition: .5s;
+  color: var(--txt);
+}
+
+body {
+  transition: .5s;
+  background-color: var(--bg);
+}
+
+.btT {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) translateX(25%);
+
+  animation: out .7s;
+}
+
+.light .btT {
+  animation: in .7s forwards;
+}
+
+@keyframes in {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 63%;
+  }
+}
+
+@keyframes out {
+  from {
+    left: 69%;
+  }
+
+  to {
+    left: 0;
+  }
+}
