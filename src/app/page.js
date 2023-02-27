@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google'
 
-import Toggle from './components/toggle'
 import Card from './components/card'
 import Icon from './components/icons'
 
@@ -15,8 +14,6 @@ export default function Home() {
         </div>
 
         <p className='m-0 text-center font-bold mt-4 text-xl'>Eduardo Henrique</p>
-
-        <Toggle />
 
         <div className='flex flex-col gap-3'>
           <Card link="https://eduardohrq.github.io/portfolio/" title="Curriculo e portifólio" />
