@@ -16,16 +16,17 @@ export default function Home() {
         <p className='m-0 text-center font-bold mt-4 text-xl'>Eduardo Henrique</p>
 
         <div className='flex flex-col gap-3'>
-          <Card link="https://eduardohrq.github.io/portfolio/" title="Curriculo e portifólio" />
+          <Card link="https://eduardohrq.github.io/portfolio/" title="Portifólio" />
         </div>
 
         <div className='my-8 flex items-center justify-around'>
           <Icon color="06b6d4" name="github" link="https://github.com/EduardoHrq" />
           <Icon color="06b6d4" name="linkedin" link="https://www.linkedin.com/in/eduardohrq/" />
-          <Icon color="06b6d4" name="resume" link="https://eduardohrq.github.io/portfolio/" />
+          <Icon color="06b6d4" name="resume" link="https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing" />
         </div>
 
         <p className='text-center'>Feito por Eduardo</p>
+
       </div>
     </div>
   )
