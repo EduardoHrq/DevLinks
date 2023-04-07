@@ -7,5 +7,5 @@
 }
 
 .icons:hover {
-  box-shadow: 25px 0 10px 0 #6366f1 inset, -25px 0 10px 0 #6366f1 inset, 0 25px 10px 0 #6366f1 inset, 0 -25px 10px 0 #6366f1 inset;
+  box-shadow: 25px 0 10px 0 #000 inset, -25px 0 10px 0 #000 inset, 0 25px 10px 0 #000 inset, 0 -25px 10px 0 #000 inset;
 }
