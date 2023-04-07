@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={inter.className}>
       <div className='w-96 m-auto mt-7'>
-        <div className='w-44 h-44 bg-blue-600 bg-opacity-25 flex justify-center rounded-full m-auto overflow-hidden'>
+        <div className='w-44 h-44 bg-indigo-600 bg-opacity-25 flex justify-center rounded-full m-auto overflow-hidden'>
           <img src="https://user-images.githubusercontent.com/57080830/214324578-84f5fa40-84ae-443b-aed8-2162d6a9c747.png" alt="userImg" className='h-full' />
         </div>
 
@@ -20,9 +20,9 @@ export default function Home() {
         </div>
 
         <div className='my-8 flex items-center justify-around'>
-          <Icon color="06b6d4" name="github" link="https://github.com/EduardoHrq" />
-          <Icon color="06b6d4" name="linkedin" link="https://www.linkedin.com/in/eduardohrq/" />
-          <Icon color="06b6d4" name="resume" link="https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing" />
+          <Icon color="6366f1" name="github" link="https://github.com/EduardoHrq" />
+          <Icon color="6366f1" name="linkedin" link="https://www.linkedin.com/in/eduardohrq/" />
+          <Icon color="6366f1" name="resume" link="https://drive.google.com/file/d/1OmXaDgMr4drnz0xlmh5mvdx5n5StoBCJ/view?usp=sharing" />
         </div>
 
         <p className='text-center'>Feito por Eduardo</p>
