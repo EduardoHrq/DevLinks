@@ -1,3 +1,11 @@
 .card:hover {
   box-shadow: 0 0 0 4px var(--bg) inset, 0 0 0 2px #6366f1;
 }
+
+.card:active {
+  transform: scale(10%);
+}
+
+.icons:hover {
+  box-shadow: 25px 0 10px 0 #6366f1 inset, -25px 0 10px 0 #6366f1 inset, 0 25px 10px 0 #6366f1 inset, 0 -25px 10px 0 #6366f1 inset;
+}
