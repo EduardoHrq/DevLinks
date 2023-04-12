@@ -15,7 +15,7 @@ export default function Home() {
 
         <p className='m-0 text-center font-bold mt-4 text-xl'>Eduardo Henrique</p>
 
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col items-center justify-center gap-3'>
           <Card link="https://dev-eduardohrq.vercel.app/" title="Portifólio" />
           <Card link="https://exemplo-one.vercel.app/" title="Exemplos_front-end (CSS)" />
         </div>
