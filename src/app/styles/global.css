@@ -7,6 +7,15 @@
   --txt: rgb(255 255 255);
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6366f1;
+  border-radius: 9999px;
+}
+
 .light {
   --bg: rgb(243 244 246);
   --txt: rgb(24 24 27);
