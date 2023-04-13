@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className={inter.className}>
-      <div className='w-96 m-auto mt-7'>
+      <div className='w-96 m-auto mt-7 mb-10'>
         <div className='w-44 h-44 bg-indigo-600 bg-opacity-25 flex justify-center rounded-full m-auto overflow-hidden'>
           <img src="https://user-images.githubusercontent.com/57080830/214324578-84f5fa40-84ae-443b-aed8-2162d6a9c747.png" alt="userImg" className='h-full' />
         </div>
