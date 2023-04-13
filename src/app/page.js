@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center gap-3'>
           <Card link="https://dev-eduardohrq.vercel.app/" title="Portifólio" />
-          <Card link="https://exemplo-one.vercel.app/" title="Exemplos_front-end (CSS)" />
+          <Card link="https://exemplos-css.vercel.app/" title="Exemplos_front-end (CSS)" />
         </div>
 
         <div className='my-8 flex items-center justify-around'>
